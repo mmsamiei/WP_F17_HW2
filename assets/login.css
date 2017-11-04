@@ -1,0 +1,96 @@
+#container{
+    background-color: aqua;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+#tab_box{
+    background-color: aliceblue;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.tab{
+    display: inline-block;
+    background-color: red;
+    height: 100%;
+}
+
+#login_tab{
+    width: 50%;
+    float: right;
+    background-color: blue;
+}
+
+.tab a{
+    display: block;
+    text-decoration: None;
+    height: 100%;
+    line-height: 40px;
+}
+
+#signup_tab{
+    width: 50%;
+    float: left;
+}
+
+#google_login_div{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    background-color: chartreuse;
+    margin-top: 10px;
+    height: 80px;
+}
+
+#google_login_div a{
+    display: block;
+    text-decoration: None;
+    height: 100%;
+    line-height: 80px;
+}
+
+#username_div{
+    background-color: crimson;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#username_div input{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 5px;
+}
+
+#password_div{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+#password_div input{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 5px;
+}
+
+* label{
+    display: inline-block ;
+    float: right;
+    width: 40%;
+    position: relative;
+    top: 9px;
+    text-align: right;
+    right: 25px;
+}
+
