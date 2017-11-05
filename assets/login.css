@@ -94,3 +94,48 @@
     right: 25px;
 }
 
+#captcha_div{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#captcha_div input{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 5px;
+}
+
+#options_div{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+#options_div #remember__me_div{
+    display: inline-block ;
+    float: right;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    text-align: right;
+    margin-right: 45%;
+}
+
+#options_div #remember__me_div input{
+    float: right;
+}
+
+
+#options_div a{
+    display: inline-block;
+    float: left;
+    width: 40%;
+    height: 100%;
+    position: relative;
+}

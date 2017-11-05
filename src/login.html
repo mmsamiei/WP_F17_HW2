@@ -29,11 +29,18 @@
                 <input type="password" name="password" placeholder="رمز عبور">
             </div>
             <br>
-            <label><b>کد امنیتی:</b></label>
-            <input type="text" name="entered_captcha" placeholder="کد امنیتی">
+            <div id="captcha_div">
+                <label><b>کد امنیتی:</b></label>
+                <input type="text" name="entered_captcha" placeholder="کد امنیتی">
+            </div>
             <br>
-            <input type="checkbox" name="remember_me" value="yes"> مرا به خاطرت بسپار
-            <a href="">رمز عبورم را فراموش کرده‌ام</a>
+            <div id="options_div">
+                <div id="remember__me_div">
+                    <span> مرا به خاطرت بسپار</span>
+                    <input type="checkbox" name="remember_me" value="yes">
+                </div>
+                <a href="">بازیابی رمز عبور</a>
+            </div>
             <br>
             <input type="submit" value="ورود" >
         </form>
