@@ -151,15 +151,42 @@ input[type="text"]:focus{
 
 #captcha_div input{
     display: inline-block;
-    float: left;
-    width: 60%;
+    float: right;
+    width: 39%;
     position: relative;
     top: 5px;
     background-color: #F5F5F5	;
     height: 100%;
     border:none;
+    right: 24%;
+    padding-left: 0px;
+    margin-left: 0px;
 
+}
 
+#captcha_refresh_icon{
+    position: relative;
+    right: 50%;
+    float: right;
+    text-align: center;
+    top: 15px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #e51c23;
+}
+
+#captcha_sample_img{
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    width: 20%;
+    float: left;
+    top: 5px;
+    padding-right: 0px;
+    margin-right: 0px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #e51c23;
 }
 
 #options_div{
