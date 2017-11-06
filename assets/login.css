@@ -5,14 +5,20 @@
     url('fonts/Yekan.ttf') format('truetype');
 }
 
+
 *{
     font-family: yekan;
     color: gray;
+}
+
+body{
+    background-color: gray;
 }
 #container{
     width: 500px;
     margin: auto;
     text-align: center;
+    background-color: white;
 }
 #tab_box{
     height: 40px;
@@ -61,6 +67,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 #google_login_div a{
@@ -204,11 +211,11 @@ input[type="text"]:focus{
     color: white;
     border-width: 2px;
     padding: 0;
+    border: none;
 }
 
 #submit_button:hover{
     background-color: #5fbf63;
-
 }
 
 a, a:visited, a:hover, a:active {
