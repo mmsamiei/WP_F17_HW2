@@ -1,26 +1,34 @@
+@font-face {
+    font-family: 'yekan';
+    src:url('fonts/Yekan.eot?#') format('eot'),
+    url('fonts/Yekan.woff') format('woff'),
+    url('fonts/Yekan.ttf') format('truetype');
+}
+
+*{
+    font-family: yekan;
+    color: gray;
+}
 #container{
-    background-color: aqua;
     width: 500px;
     margin: auto;
     text-align: center;
 }
 #tab_box{
-    background-color: aliceblue;
     height: 40px;
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    color: gray;
 }
 .tab{
     display: inline-block;
-    background-color: red;
     height: 100%;
 }
 
 #login_tab{
-    width: 50%;
+    width: 70%;
     float: right;
-    background-color: blue;
 }
 
 .tab a{
@@ -31,25 +39,28 @@
 }
 
 #signup_tab{
-    width: 50%;
+    width: 30%;
     float: left;
+    background-color: #E8E8E8;
 }
 
 #google_login_div{
     margin: 0 auto;
     width: 60%;
     text-align: center;
-    background-color: chartreuse;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 80px;
     margin-right: 20%;
     margin-left: 20%;
+    margin-bottom: 20px;
+    background-color: #e51c23;
+    color: white;
 }
-
 #login_panel{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 20px;
 }
 
 #google_login_div a{
@@ -59,12 +70,17 @@
     line-height: 80px;
 }
 
+#google_login_div a:hover{
+    background-color: #ff3a41;
+}
+
+
 #username_div{
-    background-color: crimson;
     height: 40px;
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 #username_div input{
@@ -73,6 +89,15 @@
     width: 60%;
     position: relative;
     top: 5px;
+    background-color: #F5F5F5	;
+    height: 100%;
+    border:none;
+}
+
+
+input[type="text"]:focus{
+    direction: ltr;
+    text-align: left;
 }
 
 #password_div{
@@ -80,6 +105,7 @@
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 
@@ -90,16 +116,21 @@
     width: 60%;
     position: relative;
     top: 5px;
+    background-color: #F5F5F5	;
+    height: 100%;
+    border:none;
+
 }
 
 * label{
     display: inline-block ;
     float: right;
-    width: 30%;
+    /*width: 30%;*/
     position: relative;
     top: 9px;
     text-align: right;
     right: 25px;
+    color: gray;
 }
 
 #captcha_div{
@@ -108,6 +139,7 @@
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 #captcha_div input{
@@ -116,6 +148,11 @@
     width: 60%;
     position: relative;
     top: 5px;
+    background-color: #F5F5F5	;
+    height: 100%;
+    border:none;
+
+
 }
 
 #options_div{
@@ -123,21 +160,23 @@
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    margin-top: 50px;
 }
 
 
 #options_div #remember__me_div{
-    display: inline-block ;
+    display: inline ;
     float: right;
-    /*width: 35%;*/
+    width: 50%;
     height: 100%;
     position: relative;
     text-align: right;
-    margin-right: 35%;
+    right: 38%;
 }
 
 #options_div #remember__me_div input{
     float: right;
+    margin-top: 10px;
 }
 
 
@@ -146,4 +185,33 @@
     float: left;
     height: 100%;
     position: relative;
+}
+
+#submit_div{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#submit_button{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin-right: 17%;
+    background-color: #4CAF50;
+    color: white;
+    border-width: 2px;
+    padding: 0;
+}
+
+#submit_button:hover{
+    background-color: #5fbf63;
+
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
 }
