@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'yekan';
+    src:url('fonts/Yekan.eot?#') format('eot'),
+    url('fonts/Yekan.woff') format('woff'),
+    url('fonts/Yekan.ttf') format('truetype');
+}
+
+*{
+    font-family: yekan;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* top header*/
+
+#top_header{
+    height: 30px;
+}
+
+#signup_signin_btn{
+    position: relative;
+    float: right;
+}
+
+#search_box{
+    position: relative;
+    float: left;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+
+/* end of top header */
+
+/* navigation bar*/
+
+
+
+/* end of navigation */
+
+/* middle div*/
+
+
+
+/* end of middle div */
+
+/* footer*/
+
+#footer #bottom_footer p{
+    border-top: solid dodgerblue 4px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* end of footer */
+
