@@ -17,18 +17,36 @@ a{
 
 #top_header{
     height: 30px;
+    width: 100%;
+    padding: 5px;
 }
 
 #signup_signin_btn{
+    display: inline-block;
     position: relative;
     float: right;
 }
 
 #search_box{
-    position: relative;
+    position:relative;
     float: left;
-    white-space: nowrap;
     vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    height: 100%;
+    margin-left: 20px;
+    left: 10px;
+    width: 25%;
+}
+
+#search_box .icon{
+    float: left;
+    margin-right: -20px;
+}
+
+#search_box #search_input{
+    float: right;
+    width: 100%;
 }
 
 
