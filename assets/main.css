@@ -34,19 +34,21 @@ a{
     display: inline-block;
     white-space: nowrap;
     height: 100%;
-    margin-left: 20px;
-    left: 10px;
-    width: 25%;
+    margin-left: 2%;
+    left: 1%;
+    width: 40%;
 }
 
 #search_box .icon{
-    float: left;
-    margin-right: -20px;
+    position: absolute;
+    margin-right: -6%;
 }
 
 #search_box #search_input{
     float: right;
+    text-indent: 10px;
     width: 100%;
+    padding-left: 6%;
 }
 
 
