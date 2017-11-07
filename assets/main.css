@@ -10,8 +10,9 @@
     box-sizing: border-box;
 }
 
-a{
+a, a:visited{
     text-decoration: none;
+    color: inherit;
 }
 
 /* top header*/
@@ -94,15 +95,49 @@ a{
     background: #F4F4F4;
     padding: 8px 0px;
     position: relative;
-    z-index: 100%;
 }
 
 #navigation_bar_container{
     width: 1170px;
     min-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navigation_bar_list{
+    margin-top: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.menu_item{
+    float: right;
+    display: block;
+    color: #838383;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 10px;
 
 }
 
+.menu_item a{
+    cursor: auto;
+}
+
+.menu_item a:hover{
+    color: #666!important;
+    font-weight: bold;
+    cursor: auto;
+
+}
+
+.menu_item a span{
+    content: "\e93a";
+}
 
 /* end of navigation */
 
