@@ -7,6 +7,7 @@
 
 *{
     font-family: yekan;
+    box-sizing: border-box;
 }
 
 a{
@@ -16,7 +17,7 @@ a{
 /* top header*/
 
 #top_header{
-    height: 30px;
+    height: 50px;
     width: 100%;
     padding: 5px;
 }
@@ -89,6 +90,18 @@ a{
 
 /* navigation bar*/
 
+.nav{
+    background: #F4F4F4;
+    padding: 8px 0px;
+    position: relative;
+    z-index: 100%;
+}
+
+#navigation_bar_container{
+    width: 1170px;
+    min-height: 50px;
+
+}
 
 
 /* end of navigation */
