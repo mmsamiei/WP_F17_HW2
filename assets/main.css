@@ -23,6 +23,12 @@ a, a:visited{
     padding: 5px;
 }
 
+#top_header_container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #signup_signin_btn{
     display: inline-block;
     position: relative;
@@ -148,6 +154,88 @@ a, a:visited{
 /* end of middle div */
 
 /* footer*/
+
+#footer #footer_container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer #footer_container #top_footer{
+    height: 300px;
+    padding: 20px 0px;
+    text-align: right;
+}
+#footer #footer_container #top_footer #container{
+    width: 970px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0px;
+}
+#footer #footer_container #top_footer #container #links_div{
+    text-align: center;
+}
+
+#footer #footer_container #top_footer #container #links_div ul{
+    direction: rtl;
+    list-style: none outside none;
+    margin: 15px 0 15px;
+    padding: 0;
+    text-align: center;
+}
+
+#footer #footer_container #top_footer #container #links_div ul li{
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+}
+
+#footer #footer_container #top_footer #container #links_div ul li a{
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: auto;
+    color: #616161;
+}
+
+#footer #footer_container #top_footer #container #links_div ul li a:hover{
+    text-decoration: none;
+    cursor: auto;
+    color: #3a6ee8;
+}
+
+#footer #footer_container #top_footer #container div {
+
+}
+
+#footer #footer_container #top_footer #container div #desc_div{
+    float: right;
+    width: 33.33%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+}
+
+#footer #footer_container #top_footer #container div #desc_div div{
+    height: 100%;
+    text-align: center;
+    background-color: red;
+}
+
+#footer #footer_container #top_footer #container div #about_site_div{
+    height: 100%;
+    color: #333;
+    text-align: justify;
+    font-size: 12px;
+    float: right;
+    width: 66.66%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+}
+
 
 #footer #bottom_footer p{
     border-top: solid dodgerblue 4px;
