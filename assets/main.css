@@ -104,7 +104,8 @@ a, a:visited{
 }
 
 #navigation_bar_container{
-    width: 1170px;
+    max-width: 1170px;
+    /*width: 1170px;*/
     min-height: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -156,7 +157,7 @@ a, a:visited{
 /* footer*/
 
 #footer #footer_container{
-    width: 1170px;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -167,7 +168,6 @@ a, a:visited{
     text-align: right;
 }
 #footer #footer_container #top_footer #container{
-    width: 970px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -207,29 +207,42 @@ a, a:visited{
 }
 
 #bottom_linklist_div{
+    position: relative;
+
+    width: 100%;
 }
 
 #bottom_linklist_div #desc_div{
     float: right;
     position: relative;
     width: 33%;
+    font-size: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
 }
 
 #bottom_linklist_div #about_site_div{
     float: right;
     position: relative;
+    text-align: justify;
     width: 66%;
+}
+
+#bottom_linklist_div #about_site_div p{
+    margin-top: 0px;
 }
 
 #bottom_linklist_div #desc_div #footer_banner{
     text-align: center;
+    margin-right: 0px;
     font-size: 20px;
     text-justify: inter-cluster;
     margin-left: 10px;
-    margin-right: 10px;
     border: 1px solid;
     border-radius: 6px;
     color: darkgray;
+    font-weight: 500;
+    color:#999;
 }
 
 #bottom_linklist_div #desc_div #footer_banner a{
@@ -244,13 +257,15 @@ a, a:visited{
     font-size: 20px;
     text-justify: inter-cluster;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 0px;
     color: darkgray;
 }
 
 #bottom_linklist_div #desc_div #social_wrap h3{
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 #bottom_linklist_div #desc_div #social_wrap a{
@@ -262,12 +277,20 @@ a, a:visited{
     padding-right: 10px;
 }
 
-
 #footer #bottom_footer p{
     border-top: solid dodgerblue 4px;
     background-color: white;
     text-align: center;
     padding-bottom: 20px;
+    color: #3a6ee8;
+    font-size: 14px;
+}
+
+#fitter{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 20px;
+    position: absolute;
 }
 
 /* end of footer */
