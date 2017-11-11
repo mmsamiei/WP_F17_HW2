@@ -207,14 +207,21 @@ a, a:visited{
 }
 
 .rating_slider_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
     padding-top: 20px;
     padding-right: 15px;
     padding-left: 15px;
+    position: relative;
 }
 
 .rating_slider_div .range_item {
-    width: 100%;
-    height: 100%;
+    width: 80%;
 }
 
 .rating_slider_div .range_item label {
