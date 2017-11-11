@@ -65,7 +65,7 @@ a, a:visited{
     text-shadow: none;
     text-align: start;
     -webkit-writing-mode: horizontal-tb;
-    height: 100%px;
+    height: 100%;
 }
 
 #search_form button{
@@ -97,9 +97,14 @@ a, a:visited{
 
 /* navigation bar*/
 
-.nav{
-    background: #F4F4F4;
-    padding: 8px 0px;
+/*.nav{*/
+    /*background: #F4F4F4;*/
+    /*padding: 8px 0px;*/
+    /*!*position: relative;*!*/
+/*}*/
+
+#navigtion_bar{
+    background-color: #F4F4F4;
     position: relative;
 }
 
