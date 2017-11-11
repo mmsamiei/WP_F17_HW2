@@ -184,11 +184,62 @@ a, a:visited{
     padding: 0px 57px;
     padding-top: 20px;
     padding-bottom: 10px;
-    border-bottom: solid 2px #686868;
+    border-bottom: solid 1px #686868;
     color: #686868;
     font-size: 16px;
 }
 
 .movie-tabs-item a{
 
+}
+
+
+.download_score{
+    padding-right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+}
+
+.rating_slider_div{
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.rating_slider_div .range_item {
+    width: 100%;
+    height: 100%;
+}
+
+.rating_slider_div .range_item label {
+    width: 100%;
+    height: 50px;
+}
+
+.rating_slider_div .range_item .scorebar_div{
+    width: 100%;
+    height: 0.5%;
+    position: relative;
+    direction: ltr;
+}
+
+.rating_slider_div .range_item .scorebar_div div{
+    position: absolute;
+    height: 100%;
+}
+
+.rating_slider_div .range_item .scorebar_div .scorebar_background{
+    width: 100%;
+    background: #969696;
+}
+
+.rating_slider_div .range_item .scorebar_div .scorebar_foreground{
+    width: 90%; /* I must change this later */
+    background: #15c578;
 }
