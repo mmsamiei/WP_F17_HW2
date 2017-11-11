@@ -15,6 +15,20 @@ a, a:visited{
     color: inherit;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #3a6ee8;
+    color: #fff;
+    text-align: center;
+    cursor: auto;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
 /* top header*/
 
 #top_header{
@@ -249,4 +263,43 @@ a, a:visited{
 .rating_slider_div .range_item .scorebar_div .scorebar_foreground{
     width: 90%; /* I must change this later */
     background: #15c578;
+}
+
+#suggesttion_numbers_div{
+
+}
+
+#suggesttion_numbers_div{
+    padding: 20px;
+}
+
+#suggesttion_numbers_div p{
+    display: inline;
+    font-size: 18px;
+    color: #3a6ee8;
+}
+
+.submit_score_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    position: relative;
+
+}
+
+.submit_score_div p{
+    color: #ccc;
+}
+
+.submit_score_div a{
+    width: 8em;
+    height: 3em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
