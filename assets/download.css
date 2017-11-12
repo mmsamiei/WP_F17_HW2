@@ -352,7 +352,7 @@ a, a:visited{
     align-content: space-around;
     flex: 1 1 auto;
     margin-right: auto;
-    width: 30%;
+    width: 70%;
 }
 
 .download_searcher #top_row #right_items button{
@@ -395,14 +395,109 @@ a, a:visited{
 }
 
 .download_searcher #bottom_row{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    margin-right: auto;
+}
+
+.download_searcher #bottom_row #radio_group_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.download_searcher #bottom_row #radio_group_div div:first-child{
+    padding-left: 20px;
+}
+
+.download_searcher #bottom_row #radio_group_div div{
 
 }
 
+.download_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    width: 100%;
 
+}
+
+.download_links .bluray_download_link_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.download_links .bluray_download_link_div h4{
+    align-self: flex-start;
+    flex: 1 1 auto;
+    border-bottom: 2px solid #e51c23;
+    margin-bottom: 1px;
+}
+
+.border_maker{
+    width: 100%;
+    border: 1px solid #e51c23;
+}
+
+/*this is a good class :D*/
 .download_link_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.download_link_div div:nth-child(1){
+    background-color: #e51c23;
+}
+
+.download_link_div div:nth-child(2){
+    background-color: #e51c23;
+}
+
+.download_link_div div:nth-child(3){
+    background-color: #e51c23;
+}
+
+.download_link_div div:nth-child(4){
+    background-color: #e51c23;
+}
+
+.download_link_div div:nth-child(5){
+    background-color: #e51c23;
+}
+
+
+
+.bluray_download_link_div{
 
 }
 
-.background_music_div{
+.download_links .music_download_link_div{
 
 }
