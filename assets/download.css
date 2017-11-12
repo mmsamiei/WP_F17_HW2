@@ -425,7 +425,7 @@ a, a:visited{
 
 }
 
-.download_links{
+.download_box{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -437,7 +437,7 @@ a, a:visited{
 
 }
 
-.download_links .bluray_download_link_div{
+.download_box .bluray_download_box{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -448,7 +448,7 @@ a, a:visited{
     width: 100%;
 }
 
-.download_links .bluray_download_link_div h4{
+.download_box .bluray_download_box h4{
     align-self: flex-start;
     flex: 1 1 auto;
     border-bottom: 2px solid #e51c23;
@@ -461,7 +461,7 @@ a, a:visited{
 }
 
 /*this is a good class :D*/
-.download_link_div{
+.download_links_box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -470,32 +470,47 @@ a, a:visited{
     align-content: space-between;
     flex: 1 1 auto;
     width: 100%;
+    background-color: #141414;
 }
 
-.download_link_div div:nth-child(1){
-    background-color: #e51c23;
+.download_links_box .download_size_div{
+    background-color: #141414;
+    color: #fff;
+    direction: ltr;
 }
 
-.download_link_div div:nth-child(2){
-    background-color: #e51c23;
+.download_links_box .subtitle{
+    background-color: #141414;
+    color: #fff;
 }
 
-.download_link_div div:nth-child(3){
-    background-color: #e51c23;
+.download_links_box .buybasket{
+    background-color: #141414;
 }
 
-.download_link_div div:nth-child(4){
-    background-color: #e51c23;
+.download_links_box .download_version_info{
+    background-color: white;
 }
 
-.download_link_div div:nth-child(5){
-    background-color: #e51c23;
+.download_links_box .download_version_quality ._720p{
+    background-color: #f8d40e;
+}
+
+.download_links_box .download_version_quality ._1080p{
+    background-color: #0c9;
 }
 
 
 
 .bluray_download_link_div{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    flex: 1 1 auto;
+    width: 100%;
 }
 
 .download_links .music_download_link_div{
