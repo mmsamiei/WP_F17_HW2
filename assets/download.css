@@ -218,6 +218,8 @@ a, a:visited{
     align-content: stretch;
     flex: 1 1 auto;
     box-sizing: border-box;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #686868;
 }
 
 .rating_slider_div{
@@ -302,4 +304,105 @@ a, a:visited{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.download_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+}
+
+.download_searcher{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.download_searcher #top_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.download_searcher #top_row #left_items{
+    margin-left: auto;
+}
+
+.download_searcher #top_row #right_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.download_searcher #top_row #right_items button{
+    margin-left: 20px;
+}
+
+.download_searcher #top_row #left_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    margin-left: auto;
+    width: 30%;
+}
+
+.download_searcher #top_row #left_items span{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.download_searcher #top_row #left_items span img{
+    width: 50px;
+    height: 50px;
+    opacity: 0.4;
+    cursor: pointer;
+    padding: 3px;
+    border: 1px groove #616161;
+}
+
+.download_searcher #top_row #left_items .question_mark_span{
+    font-size: 30px;
+}
+
+.download_searcher #top_row #left_items .help_span{
+    font-size: 24px;
+}
+
+.download_searcher #bottom_row{
+
+}
+
+
+.download_link_div{
+
+}
+
+.background_music_div{
+
 }
