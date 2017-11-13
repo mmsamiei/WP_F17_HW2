@@ -458,6 +458,7 @@ a, a:visited{
 .border_maker{
     width: 100%;
     border: 1px solid #e51c23;
+    margin-bottom: 2px;
 }
 
 /*this is a good class :D*/
@@ -471,34 +472,82 @@ a, a:visited{
     flex: 1 1 auto;
     width: 100%;
     background-color: #141414;
+    margin-bottom: 3px;
 }
 
 .download_links_box .download_size_div{
     background-color: #141414;
     color: #fff;
     direction: ltr;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .download_links_box .subtitle{
     background-color: #141414;
     color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .download_links_box .buybasket{
     background-color: #141414;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .download_links_box .download_version_info{
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    flex: 1 1 auto;
+    width: 40%;
 }
 
-.download_links_box .download_version_quality ._720p{
+.version_info_div{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    flex: 1 1 auto;
+}
+
+.version_info_div .class_1080p{
+    border: 1px solid #0c9;
+}
+
+.version_info_div .class_720p{
+    border: 1px solid #f8d40e;
+}
+
+.download_links_box .download_version_quality{
+    color: white;
+    width: 20%;
+
+}
+
+.download_version_quality *{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.class_720p{
     background-color: #f8d40e;
 }
 
-.download_links_box .download_version_quality ._1080p{
+.class_1080p{
     background-color: #0c9;
 }
+
+
 
 
 
