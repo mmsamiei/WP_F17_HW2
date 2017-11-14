@@ -14,3 +14,9 @@ https://stackoverflow.com/questions/8969381/what-is-the-difference-between-displ
 difference between :hover and :focus
 
 https://stackoverflow.com/questions/6143782/differences-between-css3-hover-and-focus#answer-6143800
+
+multiple class id selectors
+https://css-tricks.com/multiple-class-id-selectors/
+
+complete tutorial about flex
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
