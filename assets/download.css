@@ -23,6 +23,10 @@ a, a:visited{
     color: black;
 }
 
+.white_color{
+    color:#fff;
+}
+
 .btn{
     background-color: #3a6ee8;
     color: #fff;
@@ -41,6 +45,13 @@ a, a:visited{
     display:table-cell;
     vertical-align:middle;
 }
+
+.flex_center_item{
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* top header*/
 
 #top_header{
@@ -117,6 +128,7 @@ a, a:visited{
     height: 30px;
     left: 1%;
 }
+
 
 
 /* end of top header */
@@ -487,7 +499,7 @@ a, a:visited{
     height: 50px;
 }
 
-.bluray_download_box .download_size_div{
+.download_box .download_size_div{
     color: #fff;
     direction: ltr;
     padding-left: 20px;
@@ -501,10 +513,10 @@ a, a:visited{
     align-content: space-between;
 }
 
-.bluray_download_box .download_size_div a{
+.download_box .download_size_div a{
 }
 
-.bluray_download_box .subtitle{
+.download_box .subtitle{
     color: #fff;
     direction: ltr;
     padding-left: 20px;
@@ -518,7 +530,7 @@ a, a:visited{
     align-content: space-between;
 }
 
-.bluray_download_box .buybasket{
+.download_box .buybasket{
     color: #fff;
     direction: ltr;
     padding-left: 20px;
@@ -539,7 +551,7 @@ a, a:visited{
     flex-wrap: wrap;
     align-items: center;
     align-content: space-between;
-    flex: 2 1 auto;
+    flex: 1 1 auto;
 }
 
 .info_div > .download_version_info{
@@ -551,26 +563,24 @@ a, a:visited{
     align-content: space-between;
     background-color: #fff;
     height: 100%;
-    flex: 3 1 auto;
+    flex: 2 2 auto;
+    border: 1px solid;
+    border-right: none;
+    width: 45%;
 }
 
 .info_div._1080p .download_version_info{
-    border: 1px solid;
-    border-right: none;
+    /*border: 1px solid;*/
+    /*border-right: none;*/
     border-color: #0c9;
     color: #00cc99;
 }
 
 .info_div._720p .download_version_info{
-    border: 1px solid;
-    border-right: none;
+    /*border: 1px solid;*/
+    /*border-right: none;*/
     border-color:#f8d40e;
     color: #f8d40e;
-}
-
-.info_div .download_version_quality{
-    color: #fff;
-    height: 100%;
 }
 
 .info_div._1080p .download_version_quality{
@@ -589,6 +599,8 @@ a, a:visited{
 }
 
 .info_div .download_version_quality{
+    color: #fff;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -604,6 +616,49 @@ a, a:visited{
     padding-right: 20px;
     padding-left: 20px;
 }
+
+.download_box .music_download_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.download_box .music_download_box h4{
+    align-self: flex-start;
+    flex: 1 1 auto;
+    border-bottom: 2px solid #e51c23;
+    margin-bottom: 1px;
+}
+
+/*.info_div._audio{*/
+    /*border: 1px solid #3a6ee8;*/
+    /*background-color: red;*/
+/*}*/
+
+.info_div._audio .download_version_info{
+    color: #01b7cd;
+}
+
+.info_div._audio .download_version_time{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    flex: 1 1 auto;
+    width: 40px;
+    min-width: 35px;
+    background-color: #01b7cd;
+}
+
 
 /*this is a good class :D*/
 /*.download_links_box{*/
