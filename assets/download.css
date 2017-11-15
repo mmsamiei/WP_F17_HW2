@@ -492,13 +492,16 @@ a, a:visited{
     direction: ltr;
     padding-left: 20px;
     padding-right: 20px;
+    vertical-align: middle;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     align-content: space-between;
-    flex: 1 1 auto;
+}
+
+.bluray_download_box .download_size_div a{
 }
 
 .bluray_download_box .subtitle{
@@ -506,16 +509,27 @@ a, a:visited{
     direction: ltr;
     padding-left: 20px;
     padding-right: 20px;
-    flex: 1 1 auto;
-    display: table;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
 }
 
 .bluray_download_box .buybasket{
     color: #fff;
+    direction: ltr;
     padding-left: 20px;
     padding-right: 20px;
-    flex: 1 1 auto;
-    height: 100%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
 }
 
 .info_div{
