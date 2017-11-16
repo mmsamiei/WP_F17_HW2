@@ -55,6 +55,15 @@ a, a:visited{
     border-radius: 7px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: none;
+    border: 1px solid #3a6ee8;
+    cursor: pointer;
+
+}
+
+#signup_signin_btn:hover{
+    background: #3a6ee8;
+    color: white;
 }
 
 #gas_station_div{
@@ -118,7 +127,7 @@ a, a:visited{
     float: left;
     position: relative;
     width:12%;
-    color: #1d943c;
+    color: #ccc;
     border: 0;
     background: none;
     display: inline-block;
@@ -133,9 +142,9 @@ a, a:visited{
     align-items: flex-start;
     text-align: center;
     -webkit-writing-mode: horizontal-tb;
-    line-height: 30px;
     height: 30px;
     left: 1%;
+    margin-top: 10px;
 }
 
 
@@ -179,17 +188,16 @@ a, a:visited{
     padding-bottom: 10px;
     padding-right: 0px;
     padding-left: 10px;
+    cursor: pointer;
 
 }
 
 .menu_item a{
-    cursor: auto;
 }
 
 .menu_item a:hover{
     color: #666!important;
     font-weight: bold;
-    cursor: auto;
 
 }
 
@@ -310,14 +318,34 @@ a, a:visited{
     margin-left: 10px;
     margin-right: 0px;
     color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
 }
 
-#bottom_linklist_div #desc_div #social_wrap h3{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 20px;
-    font-weight: 100;
+#image_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    padding-top: 20px;
 }
+
+.icon_image{
+    width: 50px;
+    height: 50px;
+}
+
+.icon_image:hover{
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
+
 
 #bottom_linklist_div #desc_div #social_wrap a{
     text-align: center;
