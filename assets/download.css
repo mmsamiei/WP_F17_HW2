@@ -515,14 +515,18 @@ a, a:visited{
     cursor: pointer;
     padding: 3px;
     border: 1px groove #616161;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .download_searcher #top_row #left_items .question_mark_span{
     font-size: 30px;
+    color: #e67e22;
 }
 
 .download_searcher #top_row #left_items .help_span{
     font-size: 24px;
+    color: #e67e22;
 }
 
 .download_searcher #bottom_row{
