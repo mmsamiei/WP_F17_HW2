@@ -54,22 +54,77 @@ a, a:visited{
 
 /* top header*/
 
+/* top header*/
+
 #top_header{
-    height: 50px;
+    height: 100px;
     width: 100%;
     padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 
 #top_header_container{
     width: 1170px;
+    height: 60px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 
 #signup_signin_btn{
     display: inline-block;
     position: relative;
     float: right;
+    background: white;
+    color: #3a6ee8;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border: 1px solid #3a6ee8;
+    cursor: pointer;
+
+}
+
+#signup_signin_btn:hover{
+    background: #3a6ee8;
+    color: white;
+}
+
+#gas_station_div{
+    background-color: #3a6ee8;
+    height: 42px;
+    width: 42px;
+    display: inline-block;
+    padding: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 100%;
+    margin-top: -4px;
+    margin-left: auto;
+}
+
+#gas_station_div:hover{
+    background: #5b88f1;
+}
+
+
+#gas_station_img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
 }
 
 #search_form{
@@ -109,7 +164,7 @@ a, a:visited{
     float: left;
     position: relative;
     width:12%;
-    color: #1d943c;
+    color: #ccc;
     border: 0;
     background: none;
     display: inline-block;
@@ -124,14 +179,23 @@ a, a:visited{
     align-items: flex-start;
     text-align: center;
     -webkit-writing-mode: horizontal-tb;
-    line-height: 30px;
     height: 30px;
     left: 1%;
+    margin-top: 10px;
 }
 
 
 
+
 /* end of top header */
+
+/* navigation bar*/
+
+/*.nav{*/
+/*background: #F4F4F4;*/
+/*padding: 8px 0px;*/
+/*!*position: relative;*!*/
+/*}*/
 
 /* navigation bar*/
 
@@ -171,17 +235,16 @@ a, a:visited{
     padding-bottom: 10px;
     padding-right: 0px;
     padding-left: 10px;
+    cursor: pointer;
 
 }
 
 .menu_item a{
-    cursor: auto;
 }
 
 .menu_item a:hover{
     color: #666!important;
     font-weight: bold;
-    cursor: auto;
 
 }
 
@@ -189,6 +252,7 @@ a, a:visited{
     content: "\e93a";
 }
 
+/* end of navigation */
 /* Main*/
 
 .main{
