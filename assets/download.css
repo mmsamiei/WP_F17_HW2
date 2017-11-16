@@ -289,6 +289,12 @@ a, a:visited{
     border-bottom: solid 1px #686868;
     color: #686868;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.movie-tabs-item.active_item{
+    border-bottom: 2px solid black;
+    color: black;
 }
 
 .movie-tabs-item a{
@@ -392,6 +398,7 @@ a, a:visited{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
 }
 
 .download_box{
@@ -539,13 +546,13 @@ a, a:visited{
 .download_box .bluray_download_box h4{
     align-self: flex-start;
     flex: 1 1 auto;
-    border-bottom: 2px solid #e51c23;
+    border-bottom: 2px solid #3a6ee8;
     margin-bottom: 1px;
 }
 
 .border_maker{
     width: 100%;
-    border: 1px solid #e51c23;
+    border: 1px solid #3a6ee8;
     margin-bottom: 2px;
 }
 
@@ -658,8 +665,12 @@ a, a:visited{
 
 
 .info_div .download_version_info span{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wdl_list_meta{
+    margin-right: auto;
 }
 
 .info_div .download_version_quality{
@@ -695,7 +706,7 @@ a, a:visited{
 .download_box .music_download_box h4{
     align-self: flex-start;
     flex: 1 1 auto;
-    border-bottom: 2px solid #e51c23;
+    border-bottom: 2px solid #3a6ee8;
     margin-bottom: 1px;
 }
 
