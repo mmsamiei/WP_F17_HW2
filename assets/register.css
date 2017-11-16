@@ -14,12 +14,47 @@
 body{
     background-color: gray;
 }
+
+input{
+    text-indent: 5px;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+input[type=text]:focus, input[type=password]:focus{
+    direction: ltr;
+    text-align: left;
+
+}
+
+
+
 #container{
     width: 500px;
     margin: auto;
     text-align: center;
     background-color: white;
 }
+
+.close_div{
+    height: 40px;
+    background: #ccc;
+    text-align: right;
+    position: relative;
+}
+
+.close_div i{
+    padding-right: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    line-height: 30%;
+    color: white;
+}
+
 #tab_box{
     height: 40px;
     margin: 0 auto;
@@ -83,6 +118,7 @@ body{
 }
 
 
+
 #username_div{
     height: 40px;
     margin: 0 auto;
@@ -99,14 +135,15 @@ body{
     top: 5px;
     background-color: #F5F5F5	;
     height: 100%;
-    border:none;
+    border: 1px solid #ccc;
+}
+
+#username_div input:focus{
 }
 
 
-input[type="text"]:focus{
-    direction: ltr;
-    text-align: left;
-}
+
+
 
 .password_div{
     height: 40px;
@@ -126,7 +163,7 @@ input[type="text"]:focus{
     top: 5px;
     background-color: #F5F5F5	;
     height: 100%;
-    border:none;
+    border: 1px solid #ccc;
 
 }
 
@@ -148,7 +185,7 @@ input[type="text"]:focus{
     top: 5px;
     background-color: #F5F5F5	;
     height: 100%;
-    border:none;
+    border: 1px solid #ccc;
 
 }
 
@@ -182,10 +219,10 @@ input[type="text"]:focus{
     top: 5px;
     background-color: #F5F5F5	;
     height: 100%;
-    border:none;
     right: 24%;
     padding-left: 0px;
     margin-left: 0px;
+    border: 1px solid #ccc;
 }
 
 #captcha_input_div input{
@@ -248,7 +285,7 @@ input[type="text"]:focus{
     margin-right: 0px;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #e51c23;
+    border-color: #ccc;
 }
 
 /*#options_div{*/

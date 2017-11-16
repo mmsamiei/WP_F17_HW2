@@ -14,12 +14,46 @@
 body{
     background-color: gray;
 }
+
+
+input{
+    text-indent: 5px;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+input[type=text]:focus, input[type=password]:focus{
+    direction: ltr;
+    text-align: left;
+
+}
+
 #container{
     width: 500px;
     margin: auto;
     text-align: center;
     background-color: white;
 }
+
+.close_div{
+    height: 40px;
+    background: #ccc;
+    text-align: right;
+    position: relative;
+}
+
+.close_div i{
+    padding-right: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    line-height: 30%;
+    color: white;
+}
+
 #tab_box{
     height: 40px;
     margin: 0 auto;
@@ -98,13 +132,8 @@ body{
     top: 5px;
     background-color: #F5F5F5	;
     height: 100%;
-    border:none;
-}
+    border: 1px solid #ccc;
 
-
-input[type="text"]:focus{
-    direction: ltr;
-    text-align: left;
 }
 
 #password_div{
@@ -125,7 +154,7 @@ input[type="text"]:focus{
     top: 5px;
     background-color: #F5F5F5	;
     height: 100%;
-    border:none;
+    border: 1px solid #ccc;
 
 }
 
@@ -149,7 +178,7 @@ input[type="text"]:focus{
     margin-bottom: 20px;
 }
 
-#captcha_div input{
+#captcha_input_div{
     display: inline-block;
     float: right;
     width: 39%;
@@ -157,23 +186,60 @@ input[type="text"]:focus{
     top: 5px;
     background-color: #F5F5F5	;
     height: 100%;
-    border:none;
     right: 24%;
     padding-left: 0px;
     margin-left: 0px;
-
+    border: 1px solid #ccc;
 }
 
-#captcha_refresh_icon{
-    position: relative;
-    right: 50%;
+#captcha_input_div input{
+    height: 100%;
+    display: inline-block;
     float: right;
-    text-align: center;
-    top: 15px;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #e51c23;
+    position: relative;
+    background-color: #F5F5F5	;
+    height: 100%;
+    border:none;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 80%;
 }
+
+#captcha_input_div a{
+    display: inline;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+/*#captcha_div input{*/
+    /*display: inline-block;*/
+    /*float: right;*/
+    /*width: 39%;*/
+    /*position: relative;*/
+    /*top: 5px;*/
+    /*background-color: #F5F5F5	;*/
+    /*height: 100%;*/
+    /*border:none;*/
+    /*right: 24%;*/
+    /*padding-left: 0px;*/
+    /*margin-left: 0px;*/
+
+/*}*/
+
+/*#captcha_refresh_icon{*/
+    /*position: relative;*/
+    /*right: 50%;*/
+    /*float: right;*/
+    /*text-align: center;*/
+    /*top: 15px;*/
+    /*border-style: solid;*/
+    /*border-width: 1px 1px 1px 1px;*/
+    /*border-color: #e51c23;*/
+/*}*/
 
 #captcha_sample_img{
     display: inline-block;
@@ -186,7 +252,7 @@ input[type="text"]:focus{
     margin-right: 0px;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #e51c23;
+    border-color: #ccc;
 }
 
 #options_div{
