@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'yekan';
+    src:url('fonts/Yekan.eot?#') format('eot'),
+    url('fonts/Yekan.woff') format('woff'),
+    url('fonts/Yekan.ttf') format('truetype');
+}
+
+
+*{
+    font-family: yekan;
+    color: gray;
+}
+
+body{
+    background-color: gray;
+}
+#container{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+#tab_box{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    color: gray;
+}
+.tab{
+    display: inline-block;
+    height: 100%;
+}
+
+#login_tab{
+    width: 30%;
+    float: right;
+    background-color: #E8E8E8;
+}
+
+.tab a{
+    display: block;
+    text-decoration: None;
+    height: 100%;
+    line-height: 40px;
+}
+
+#signup_tab{
+    width: 70%;
+    float: left;
+    /*background-color: #E8E8E8;*/
+}
+
+#google_login_div{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+    height: 80px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    background-color: #e51c23;
+    color: white;
+}
+#login_panel{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+#google_login_div a{
+    display: block;
+    text-decoration: None;
+    height: 100%;
+    line-height: 80px;
+}
+
+#google_login_div a:hover{
+    background-color: #ff3a41;
+}
+
+
+#username_div{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#username_div input{
+    display: inline-block;
+    float: left;
+    width: 60%;
+    position: relative;
+    top: 5px;
+    background-color: #F5F5F5	;
+    height: 100%;
+    border:none;
+}
+
+
+input[type="text"]:focus{
+    direction: ltr;
+    text-align: left;
+}
+
+.password_div{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.password_div input{
+    display: inline-block;
+    float: left;
+    width: 60%;
+    position: relative;
+    top: 5px;
+    background-color: #F5F5F5	;
+    height: 100%;
+    border:none;
+
+}
+
+.invite_link_div{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.invite_link_div input{
+    display: inline-block;
+    float: left;
+    width: 60%;
+    position: relative;
+    top: 5px;
+    background-color: #F5F5F5	;
+    height: 100%;
+    border:none;
+
+}
+
+
+* label{
+    display: inline-block ;
+    float: right;
+    /*width: 30%;*/
+    position: relative;
+    top: 9px;
+    text-align: right;
+    right: 25px;
+    color: gray;
+}
+
+#captcha_div{
+    height: 40px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#captcha_input_div{
+    display: inline-block;
+    float: right;
+    width: 39%;
+    position: relative;
+    top: 5px;
+    background-color: #F5F5F5	;
+    height: 100%;
+    border:none;
+    right: 24%;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#captcha_input_div input{
+    height: 100%;
+    display: inline-block;
+    float: right;
+    position: relative;
+    background-color: #F5F5F5	;
+    height: 100%;
+    border:none;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 80%;
+}
+
+#captcha_input_div a{
+    display: inline;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+/*#captcha_div input{*/
+    /*display: inline-block;*/
+    /*float: right;*/
+    /*width: 39%;*/
+    /*position: relative;*/
+    /*top: 5px;*/
+    /*background-color: #F5F5F5	;*/
+    /*height: 100%;*/
+    /*border:none;*/
+    /*right: 24%;*/
+    /*padding-left: 0px;*/
+    /*margin-left: 0px;*/
+
+/*}*/
+
+/*#captcha_refresh_icon{*/
+    /*position: relative;*/
+    /*right: 50%;*/
+    /*float: right;*/
+    /*text-align: center;*/
+    /*top: 15px;*/
+    /*border-style: solid;*/
+    /*border-width: 1px 1px 1px 1px;*/
+    /*border-color: #e51c23;*/
+/*}*/
+
+#captcha_sample_img{
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    width: 20%;
+    float: left;
+    top: 5px;
+    padding-right: 0px;
+    margin-right: 0px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #e51c23;
+}
+
+/*#options_div{*/
+    /*height: 40px;*/
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+    /*width: 100%;*/
+    /*margin-top: 50px;*/
+/*}*/
+
+
+/*#options_div #accept_rules{*/
+    /*display: inline ;*/
+    /*float: right;*/
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*position: relative;*/
+    /*text-align: right;*/
+    /*right: 38%;*/
+/*}*/
+
+
+
+
+/*#options_div #accept_rules input{*/
+    /*float: right;*/
+    /*margin-top: 10px;*/
+/*}*/
+
+
+/*#options_div a{*/
+    /*display: inline-block;*/
+    /*float: left;*/
+    /*height: 100%;*/
+    /*position: relative;*/
+/*}*/
+
+#accept_rules_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-right: 39%;
+}
+
+
+#submit_div{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#submit_button{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin-right: 17%;
+    background-color: #4CAF50;
+    color: white;
+    border-width: 2px;
+    padding: 0;
+    border: none;
+}
+
+#submit_button:hover{
+    background-color: #5fbf63;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
