@@ -764,3 +764,143 @@ a, a:visited{
 .download_links .music_download_link_div{
 
 }
+
+
+/*footer*/
+
+#footer #footer_container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer #footer_container #top_footer{
+    height: 300px;
+    padding: 20px 0px;
+    text-align: right;
+}
+#footer #footer_container #top_footer #container{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0px;
+}
+#footer #footer_container #top_footer #container #links_div{
+    display: block;
+    text-align: center;
+}
+
+#footer #footer_container #top_footer #container #links_div ul{
+    direction: rtl;
+    list-style: none outside none;
+    margin: 15px 0 15px;
+    padding: 0;
+    text-align: center;
+}
+
+#footer #footer_container #top_footer #container #links_div ul li{
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+}
+
+#footer #footer_container #top_footer #container #links_div ul li a{
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: auto;
+    color: #616161;
+}
+
+#footer #footer_container #top_footer #container #links_div ul li a:hover{
+    text-decoration: none;
+    cursor: auto;
+    color: #3a6ee8;
+}
+
+#bottom_linklist_div{
+    position: relative;
+
+    width: 100%;
+}
+
+#bottom_linklist_div #desc_div{
+    float: right;
+    position: relative;
+    width: 33%;
+    font-size: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+#bottom_linklist_div #about_site_div{
+    float: right;
+    position: relative;
+    text-align: justify;
+    width: 66%;
+}
+
+#bottom_linklist_div #about_site_div p{
+    margin-top: 0px;
+}
+
+#bottom_linklist_div #desc_div #footer_banner{
+    text-align: center;
+    margin-right: 0px;
+    font-size: 20px;
+    text-justify: inter-cluster;
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    color: darkgray;
+    font-weight: 500;
+    color:#999;
+}
+
+#bottom_linklist_div #desc_div #footer_banner a{
+    text-decoration: None;
+    height: 100%;
+}
+
+
+
+#bottom_linklist_div #desc_div #social_wrap{
+    text-align: center;
+    font-size: 20px;
+    text-justify: inter-cluster;
+    margin-left: 10px;
+    margin-right: 0px;
+    color: darkgray;
+}
+
+#bottom_linklist_div #desc_div #social_wrap h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#bottom_linklist_div #desc_div #social_wrap a{
+    text-align: center;
+    text-justify: inter-cluster;
+    position: relative;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer #bottom_footer p{
+    border-top: solid dodgerblue 4px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #3a6ee8;
+    font-size: 14px;
+}
+
+#fitter{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 20px;
+    position: absolute;
+}
