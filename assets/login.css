@@ -95,7 +95,15 @@ input[type=text]:focus, input[type=password]:focus{
     margin-bottom: 20px;
     background-color: #e51c23;
     color: white;
+    border-radius: 5px;
 }
+
+#google_login_div a:hover{
+    background-color: #ff3a41;
+    border-radius: 5px;
+
+}
+
 #login_panel{
     width: 80%;
     margin-left: 10%;
@@ -111,9 +119,7 @@ input[type=text]:focus, input[type=password]:focus{
     line-height: 80px;
 }
 
-#google_login_div a:hover{
-    background-color: #ff3a41;
-}
+
 
 
 #username_div{
@@ -261,6 +267,7 @@ input[type=text]:focus, input[type=password]:focus{
     text-align: center;
     width: 100%;
     margin-top: 50px;
+    font-size: 13px;
 }
 
 
@@ -305,10 +312,13 @@ input[type=text]:focus, input[type=password]:focus{
     border-width: 2px;
     padding: 0;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #submit_button:hover{
     background-color: #5fbf63;
+    border-radius: 5px;
 }
 
 a, a:visited, a:hover, a:active {
