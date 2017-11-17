@@ -83,28 +83,8 @@ a, a:visited{
     align-content: center;
 }
 
-#signup_signin_btn{
-    display: inline-block;
-    position: relative;
-    float: right;
-    background: white;
-    color: #3a6ee8;
-    border-radius: 7px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: none;
-    border: 1px solid #3a6ee8;
-    cursor: pointer;
-
-}
-
-#signup_signin_btn:hover{
-    background: #3a6ee8;
-    color: white;
-}
-
-#gas_station_div{
-    background-color: #3a6ee8;
+.circle_avatar{
+    background-color: #00cc99;
     height: 42px;
     width: 42px;
     display: inline-block;
@@ -113,19 +93,75 @@ a, a:visited{
     margin-left: 10px;
     border-radius: 100%;
     margin-top: -4px;
-    margin-left: auto;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
-#gas_station_div:hover{
-    background: #5b88f1;
-}
-
-
-#gas_station_img{
+.circle_avatar_img{
     width: 100%;
     height: 100%;
-    padding: 10px;
+    border-radius: 100%;
 }
+
+#notification_div{
+    background-color: white;
+    height: 42px;
+    width: 42px;
+    padding: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 100%;
+    margin-top: -4px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#notification_div:hover{
+}
+
+#notification_div a{
+    flex: 1 1 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#notification_div a i{
+    flex: 1 1 auto;
+    color: gray;
+    font-size: 24px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+
+/*#gas_station_div{*/
+    /*background-color: #3a6ee8;*/
+    /*height: 42px;*/
+    /*width: 42px;*/
+    /*display: inline-block;*/
+    /*padding: 2px;*/
+    /*margin-right: 10px;*/
+    /*margin-left: 10px;*/
+    /*border-radius: 100%;*/
+    /*margin-top: -4px;*/
+    /*margin-left: auto;*/
+/*}*/
+
+/*#gas_station_div:hover{*/
+    /*background: #5b88f1;*/
+/*}*/
+
+
+/*#gas_station_img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*padding: 10px;*/
+/*}*/
 
 #search_form{
     width: 25%;
@@ -136,6 +172,7 @@ a, a:visited{
     display: block;
     height: 100%;
     border: 0.5px solid #eaeaea;
+    margin-bottom: 0px;
 }
 
 #search_form input{
@@ -182,6 +219,7 @@ a, a:visited{
     height: 30px;
     left: 1%;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -454,6 +492,7 @@ a, a:visited{
 
 .download_searcher #top_row #right_items button{
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .download_searcher #top_row #left_items{
